@@ -1,8 +1,7 @@
 #include "mainDevice.hpp"
 
-int main()
+extern "C" void app_main(void)
 {
     MainDevice mainDevice{};
 
-    return 0;
 }
